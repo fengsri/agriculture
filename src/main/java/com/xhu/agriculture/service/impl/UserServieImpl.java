@@ -12,20 +12,26 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServieImpl extends BaseServiceImpl<User> implements UserService {
+
     @Override
-    public User findById(Long id) {
+    public User findById(Integer id) {
         return null;
     }
 
     @Override
-    public void deleteById(Long id) {
+    public boolean deleteById(Integer id) {
+        return false;
     }
 
     @Override
-    public void update(User user) {
+    public boolean update(User user) {
+        return false;
     }
 
     @Override
-    public void insert(User user) {
+    public boolean insert(User user) {
+        return false;
     }
+
+
 }

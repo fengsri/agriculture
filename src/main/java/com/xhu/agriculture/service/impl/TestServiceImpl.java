@@ -1,8 +1,12 @@
 package com.xhu.agriculture.service.impl;
 
 
+import com.xhu.agriculture.enums.ErrorCodeEnum;
+import com.xhu.agriculture.exception.BusinessException;
 import com.xhu.agriculture.repository.TestDomain;
 import com.xhu.agriculture.service.BaseService;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
 
 /**
  * @Description 测试的TestServiceImpl
@@ -10,6 +14,8 @@ import com.xhu.agriculture.service.BaseService;
  * @Date 2019/7/3 15:53
  * @Version V1.0
  */
+@Service
+@Slf4j
 public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements BaseService<TestDomain> {
 
     /**
@@ -19,7 +25,23 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
      */
     @Override
     public TestDomain findById(Integer id) {
-        return null;
+        //1、检验是否为空
+        if (id == null) {
+            log.error("TestServiceImpl#TestDomain: id is null id={}.", id);
+            throw new BusinessException(ErrorCodeEnum.PARAM_IS_NULL);
+        }
+
+        //2、查询数据
+        TestDomain testDomain = testDao.getById(id);
+
+        //3、对返回的数据检验
+        if (testDomain == null) {
+            log.error("TestServiceImpl#TestDomain: data is null, id={}.", id);
+            throw new BusinessException(ErrorCodeEnum.DATA_NULL_ERROR);
+        }
+
+        //4、返回数据
+        return testDomain;
     }
 
     /**
@@ -27,8 +49,25 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
      * @param id
      */
     @Override
-    public void deleteById(Integer id) {
+    public boolean deleteById(Integer id) {
+        //1、检验是否为空
+        if (id == null) {
+            log.error("TestServiceImpl#TestDomain: id is null id={}.", id);
+            throw new BusinessException(ErrorCodeEnum.PARAM_IS_NULL);
+        }
 
+        //2、查询数据
+        TestDomain testDomain = testDao.getById(id);
+
+        //3、对返回的数据检验
+        if (testDomain == null) {
+            log.error("TestServiceImpl#TestDomain: data is null, id={}.", id);
+            throw new BusinessException(ErrorCodeEnum.DATA_NULL_ERROR);
+        }
+
+        //4、返回数据
+
+        return true;
     }
 
     /**
@@ -36,8 +75,8 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
      * @param testDomain
      */
     @Override
-    public void update(TestDomain testDomain) {
-
+    public boolean update(TestDomain testDomain) {
+        return true;
     }
 
     /**
@@ -45,7 +84,7 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
      * @param testDomain
      */
     @Override
-    public void insert(TestDomain testDomain) {
-
+    public boolean insert(TestDomain testDomain) {
+        return true;
     }
 }

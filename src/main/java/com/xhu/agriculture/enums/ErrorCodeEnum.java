@@ -18,8 +18,7 @@ public enum ErrorCodeEnum {
     PARAM_IS_NULL("0100", "参数为空"),
     TELEPHONE_ILLEGAL("0101", "电话号码不合法"),
     PARAM_ILLEGAL("0102", "参数错误"),
-    DATA_IS_NULL("0103","参数为空"),
-    TELEPHONE_HAS_REGISTER("0104", "电话号码已经注册"),
+    TELEPHONE_HAS_REGISTER("0103", "电话号码已经注册"),
 
 
     /**

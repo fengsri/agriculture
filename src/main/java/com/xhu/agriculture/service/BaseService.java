@@ -16,17 +16,17 @@ public interface BaseService<T> {
      * 通过id删除
      * @param id
      */
-    void deleteById(Integer id);
+    boolean deleteById(Integer id);
 
     /**
      * 通过修改
      * @param t
      */
-    void update(T t);
+    boolean update(T t);
 
     /**
      * 插入数据
      * @param t
      */
-    void insert(T t);
+    boolean insert(T t);
 }
