@@ -1,5 +1,6 @@
 package com.xhu.agriculture.web.controller;
 
+import com.xhu.agriculture.service.TestService;
 import com.xhu.agriculture.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -16,5 +17,8 @@ public class BaseController {
      */
     @Autowired
     UserService userService;
+
+    @Autowired
+    TestService testService;
 
 }

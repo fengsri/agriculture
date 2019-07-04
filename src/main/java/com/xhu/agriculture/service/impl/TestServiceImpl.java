@@ -57,16 +57,15 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
         }
 
         //2、查询数据
-        TestDomain testDomain = testDao.getById(id);
+        int result = testDao.deleteById(id);
 
         //3、对返回的数据检验
-        if (testDomain == null) {
-            log.error("TestServiceImpl#TestDomain: data is null, id={}.", id);
-            throw new BusinessException(ErrorCodeEnum.DATA_NULL_ERROR);
+        if (result ==0) {
+            log.error("TestServiceImpl#deleteById: id is not exist, id={}.", id);
+            throw new BusinessException(ErrorCodeEnum.DATA_ERROR);
         }
 
         //4、返回数据
-
         return true;
     }
 
@@ -76,6 +75,22 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
      */
     @Override
     public boolean update(TestDomain testDomain) {
+        //1、检验是否为空
+        if (testDomain == null) {
+            log.error("TestServiceImpl#update: testDomain is null testDomain={}.", testDomain);
+            throw new BusinessException(ErrorCodeEnum.PARAM_IS_NULL);
+        }
+
+        //2、查询数据
+        int result = testDao.update(testDomain);
+
+        //3、对返回的数据检验
+        if (result ==0) {
+            log.error("TestServiceImpl#deleteById: update testDomain error, testDomain={}.", testDomain);
+            throw new BusinessException(ErrorCodeEnum.DATA_DELETE_ERROR);
+        }
+
+        //4、返回数据
         return true;
     }
 
@@ -85,6 +100,21 @@ public class TestServiceImpl extends BaseServiceImpl<TestDomain> implements Base
      */
     @Override
     public boolean insert(TestDomain testDomain) {
+        //1、检验是否为空
+        if (testDomain == null) {
+            log.error("TestServiceImpl#update: testDomain is null testDomain={}.", testDomain);
+            throw new BusinessException(ErrorCodeEnum.PARAM_IS_NULL);
+        }
+
+        //2、查询数据
+        int result = testDao.insert(testDomain);
+
+        //3、对返回的数据检验
+        if (result ==0) {
+            log.error("TestServiceImpl#deleteById: insert testDomain error, testDomain={}.", testDomain);
+            throw new BusinessException(ErrorCodeEnum.DATA_SAVE_ERROR);
+        }
+        //4、返回数据
         return true;
     }
 }

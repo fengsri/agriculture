@@ -32,8 +32,9 @@ public enum ErrorCodeEnum {
     /**
      * 03XX 数据错误
      */
-    DATA_ERROR("0300", "数据存在错误"),
+    DATA_ERROR("0300", "数据不存在"),
     DATA_NULL_ERROR("0301", "数据为空"),
+    DATA_SAVE_ERROR("0302","数据保存错误"),
     DATA_UPDATE_ERROR("0302","数据修改错误"),
     DATA_DELETE_ERROR("0303","数据删除错误"),
     DATA_COMPLETE_ERROR("0304","数据不完整"),
