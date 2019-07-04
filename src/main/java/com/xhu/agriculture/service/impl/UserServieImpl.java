@@ -15,6 +15,8 @@ import org.springframework.stereotype.Service;
 @Slf4j
 public class UserServieImpl extends BaseServiceImpl<User> implements UserService {
 
+
+
     @Override
     public User findById(Integer id) {
         return null;
@@ -36,4 +38,14 @@ public class UserServieImpl extends BaseServiceImpl<User> implements UserService
     }
 
 
+    /**
+     * 用户登录
+     * @param user
+     * @return
+     */
+    @Override
+    public User login(User user) {
+
+        return null;
+    }
 }

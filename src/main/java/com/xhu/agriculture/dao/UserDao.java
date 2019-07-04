@@ -7,5 +7,13 @@ import com.xhu.agriculture.repository.User;
  */
 public interface UserDao extends BaseDao<User> {
 
+    /**
+     * 用户登录
+     * @param user
+     * @return
+     */
+    User login(User user);
+
+
 
 }

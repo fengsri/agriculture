@@ -31,7 +31,7 @@ import java.io.IOException;
 @Slf4j
 @RestController
 @RequestMapping(value = "/image")
-public class ImageController extends BaseController{
+public class ImageController{
 
     /* 注入Kaptcha */
     @Autowired
