@@ -2,6 +2,7 @@ package com.xhu.agriculture.service.impl;
 
 import com.xhu.agriculture.repository.User;
 import com.xhu.agriculture.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,7 +12,10 @@ import org.springframework.stereotype.Service;
  * @Version V1.0
  */
 @Service
+@Slf4j
 public class UserServieImpl extends BaseServiceImpl<User> implements UserService {
+
+
 
     @Override
     public User findById(Integer id) {
@@ -34,4 +38,14 @@ public class UserServieImpl extends BaseServiceImpl<User> implements UserService
     }
 
 
+    /**
+     * 用户登录
+     * @param user
+     * @return
+     */
+    @Override
+    public User login(User user) {
+
+        return null;
+    }
 }

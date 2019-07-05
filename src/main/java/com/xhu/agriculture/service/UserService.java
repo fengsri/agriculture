@@ -9,4 +9,11 @@ import com.xhu.agriculture.repository.User;
  * @Version V1.0
  */
 public interface UserService extends BaseService<User>{
+
+    /**
+     * 用户登录
+     * @param user
+     * @return
+     */
+    User login(User user);
 }

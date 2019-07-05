@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xhu.agriculture.dao.TestDao" >
+
+    <resultMap id="BaseResultMap" type="com.xhu.agriculture.repository.TestDomain">
+        <id column="id" property="id" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" javaType="Date"/>
+        <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" javaType="Date"/>
+        <result column="deleted" property="deleted" jdbcType="VARCHAR" javaType="Integer"/>
+        <result column="name" property="name" jdbcType="VARCHAR" javaType="java.lang.String"/>
+    </resultMap>
+
+    <sql id="BaseColumnList">
+        `id`, gmt_create, gmt_modified, deleted, `name`
+    </sql>
+
+    <insert id="insert" parameterType="com.xhu.agriculture.repository.TestDomain">
+        <selectKey keyProperty="id" order="AFTER" resultType="Integer">
+            SELECT last_insert_id()
+        </selectKey>
+        INSERT into
+        test(`name`)
+        values(#{name})
+    </insert>
+
+    <update id="deleteById" parameterType="Integer">
+        update test
+        set deleted = 1
+        where id = #{id}
+    </update>
+
+    <select id="getById" parameterType="Integer" resultMap="BaseResultMap">
+        SELECT
+        `id`, gmt_create, gmt_modified, deleted, `name`
+        FROM
+        test
+        WHERE
+        id=#{id} and deleted = 0
+    </select>
+
+    <select id="listAll" resultMap="BaseResultMap">
+        SELECT
+        <include refid="BaseColumnList"/>
+        FROM
+        test
+        order by id desc
+        <if test="offset != null and rows != null">
+            limit #{offset},#{rows}
+        </if>
+        <if test="offset == null or rows == null">
+            limit 0,10
+        </if>
+        where  deleted = 0
+    </select>
+
+    <select id="count" resultType="int">
+        SELECT
+        count(*)
+        FROM
+        test
+        where  deleted = 0
+    </select>
+
+    <update id="update" parameterType="com.xhu.agriculture.repository.TestDomain">
+        update test
+        set
+        `name`= #{name},
+        gmt_modified = current_timestamp
+        where id = #{id} and deleted = 0
+    </update>
+
+</mapper>
