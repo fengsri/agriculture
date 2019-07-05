@@ -31,7 +31,7 @@
 
     <select id="getById" parameterType="Integer" resultMap="BaseResultMap">
         SELECT
-        <include refid="BaseColumnList"/>
+        `id`, gmt_create, gmt_modified, deleted, `name`
         FROM
         test
         WHERE
