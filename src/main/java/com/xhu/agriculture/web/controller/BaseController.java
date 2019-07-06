@@ -18,5 +18,7 @@ public class BaseController {
     @Autowired
     UserService userService;
 
+    @Autowired
+    TestService testService;
 
 }

@@ -1,5 +1,10 @@
 package com.xhu.agriculture.service;
 
+import com.xhu.agriculture.comment.PageDto;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
+
 /**
  * 基本的servcie接口
  * @param <T>
@@ -29,4 +34,20 @@ public interface BaseService<T> {
      * @param t
      */
     boolean insert(T t);
+
+    /**
+     * 总的数
+     * @return
+     */
+    long count();
+
+
+    /**
+     * 分页获取
+     * @param pageNo
+     * @param pageSize
+     * @return
+     */
+    PageDto<T> listAll(long pageNo, long pageSize);
+
 }

@@ -2,5 +2,168 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.xhu.agriculture.dao.UserDao" >
 
+    <!--user的resultMap-->
+    <resultMap id="userResultMap" type="com.xhu.agriculture.repository.User">
+        <id column="id" property="id" jdbcType="INTEGER" javaType="Integer"/>
+        <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" javaType="Date"/>
+        <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" javaType="Date"/>
+        <result column="deleted" property="deleted" jdbcType="VARCHAR" javaType="Integer"/>
+        <result column="userName" property="userName" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userPassword" property="userPassword" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userPhone" property="userPhone" jdbcType="BIGINT" javaType="java.lang.Long"/>
+        <result column="userIdcard" property="userIdcard" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userGrander" property="userGrander" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+        <result column="userBirthday" property="userBirthday" jdbcType="DATE" javaType="java.util.Date"/>
+        <result column="userEmail" property="userEmail" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userHeaderPic" property="userHeaderPic" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userDescription" property="userDescription" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userAddress" property="userAddress" jdbcType="VARCHAR" javaType="java.lang.String"/>
+        <result column="userStatue" property="userStatue" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+        <result column="userTypeId" property="userTypeId" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+    </resultMap>
+
+    <!--user的列-->
+    <sql id="userColumnList">
+        `id`,
+        `gmt_create`,
+        `gmt_modified`,
+        `deleted`,
+        `userName`,
+        `userPassword`,
+        `userPhone`,
+        `userIdcard`,
+        `userGrander`,
+        `userBirthday`,
+        `userEmail`,
+        `userHeaderPic`,
+        `userDescription`,
+        `userAddress`,
+        `userStatue`,
+        `userTypeId`
+    </sql>
+
+
+    <!--数据插入的列-->
+    <sql id="userInsertColumnList">
+        `userName`,
+        `userPassword`,
+        `userPhone`,
+        `userIdcard`,
+        `userGrander`,
+        `userBirthday`,
+        `userEmail`,
+        `userHeaderPic`,
+        `userDescription`,
+        `userAddress`,
+        `userStatue`,
+        `userTypeId`
+    </sql>
+
+
+    <!--插入-->
+    <insert id="insert" parameterType="com.xhu.agriculture.repository.User">
+        <selectKey keyProperty="id" order="AFTER" resultType="Integer">
+            SELECT last_insert_id()
+        </selectKey>
+        INSERT into
+        user (<include refid="userInsertColumnList"></include>)
+        values
+        (
+        #{userName},
+        #{userPassword},
+        #{userPhone},
+        #{userIdcard},
+        #{userGrander},
+        #{userBirthday},
+        #{userEmail},
+        #{userHeaderPic},
+        #{userDescription},
+        #{userAddress},
+        #{userStatue},
+        #{userTypeId}
+        )
+    </insert>
+    <!--通过id删除-->
+    <update id="deleteById" parameterType="Integer">
+        update user
+        set deleted = 0
+        where id = #{id}
+    </update>
+
+    <!--通过id查询-->
+    <select id="getById" parameterType="Integer" resultMap="userResultMap">
+        SELECT
+        <include refid="userColumnList"/>
+        FROM
+        user
+        WHERE
+        id=#{id} and deleted = 1
+    </select>
+
+    <!--通过用户名和密码登录-->
+    <select id="login"  resultMap="userResultMap">
+        SELECT
+        <include refid="userColumnList"/>
+        FROM
+        user
+        WHERE
+        `userName`=#{userName} and `userPassword`=#{userPassword} and deleted = 1
+    </select>
+
+    <!--通过手机号码查询-->
+    <select id="getByPhone"  resultMap="userResultMap">
+        SELECT
+        <include refid="userColumnList"/>
+        FROM
+        user
+        WHERE
+        `userPhone`=#{userPhone} and deleted = 1
+    </select>
+
+
+    <!--分页查询-->
+    <select id="listAll" resultMap="userResultMap">
+        SELECT
+        <include refid="userColumnList"/>
+        FROM
+        user
+        where  deleted = 1
+        order by id desc
+        <if test="offset != null and rows != null">
+            limit #{offset},#{rows}
+        </if>
+        <if test="offset == null or rows == null">
+            limit 0,10
+        </if>
+    </select>
+
+    <!--查询总的数量-->
+    <select id="count" resultType="long">
+        SELECT
+        count(*)
+        FROM
+        user
+        where  deleted = 1
+    </select>
+
+    <!--修改-->
+    <update id="update" parameterType="com.xhu.agriculture.repository.User">
+        update user
+        set
+        `userName`=#{userName},
+        `userPassword`=#{userPassword},
+        `userPhone`=#{userPhone},
+        `userIdcard`=#{userIdcard},
+        `userGrander`=#{userGrander},
+        `userBirthday`=#{userBirthday},
+        `userEmail`=#{userEmail},
+        `userHeaderPic`=#{userHeaderPic},
+        `userDescription`=#{userDescription},
+        `userAddress`=#{userAddress},
+        `userStatue`=#{userStatue},
+        `userTypeId`=#{userTypeId},
+        `gmt_modified` = current_timestamp
+        where id = #{id} and deleted = 1
+    </update>
 
 </mapper>
