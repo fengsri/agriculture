@@ -11,4 +11,5 @@ import com.xhu.agriculture.repository.TestDomain;
  */
 public interface TestService extends BaseService<TestDomain>{
 
+
 }

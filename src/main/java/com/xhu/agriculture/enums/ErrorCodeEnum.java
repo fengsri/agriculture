@@ -13,7 +13,7 @@ public enum ErrorCodeEnum {
     SUCCESS("0000", "请求成功"),
 
     /**
-     * 01XX 参数相关
+     * 01XX 参数相关错误
      */
     PARAM_IS_NULL("0100", "参数为空"),
     TELEPHONE_ILLEGAL("0101", "电话号码不合法"),
@@ -22,25 +22,25 @@ public enum ErrorCodeEnum {
 
 
     /**
-     * 02XX 用户信息相关
+     * 02XX 登录相关错误
      */
-    NO_USER("0200", "用户不存在"),
+    LOGIN_ERROR("0200", "登陆失败"),
     NOT_ALIVE_USER("0201", "用户未登录"),
     PASSWORD_ERROR("0202", "密码错误"),
-    USER_NOT_LOGIN("0203", "用户未登陆"),
+    NOT_HAVE_PHONE("0203", "没有该手机号"),
+
 
     /**
-     * 03XX 数据错误
+     * 03XX 数据操作 相关错误
      */
     DATA_ERROR("0300", "数据不存在"),
-    DATA_NULL_ERROR("0301", "数据为空"),
+    DATA_NULL_ERROR("0301", "查询数据为空"),
     DATA_SAVE_ERROR("0302","数据保存错误"),
     DATA_UPDATE_ERROR("0302","数据修改错误"),
     DATA_DELETE_ERROR("0303","数据删除错误"),
-    DATA_COMPLETE_ERROR("0304","数据不完整"),
 
     /**
-     * 04XX 其它错误
+     * 04XX 未知错误
      */
     UNKOWN_ERROR("0400", "未知错误"),
 
@@ -51,26 +51,12 @@ public enum ErrorCodeEnum {
     IMAGE_CODE_ERROR("0501", "图形验证码时效超时或失败"),
 
     /**
-     * 06XX 文件
+     * 06XX 文件问题
      */
     FILE_HANDLE_ERROR("0600", "文件处理异常"),
     FILE_IS_NULL("0601", "文件为空"),
     FILE_STREAM_CREATE_ERROR("0602", "文件创建错误"),
     FILE_DOWNLOAD_ERROR("0603", "文件下载错误"),
-
-    /**
-     * 07数据读入错误
-     */
-    SAVE_DATA_ERROR("0700","数据保存出错"),
-    CACHE_DATA_ERROR("0701","数据缓存出错"),
-
-
-    /**
-     * 08事故编号错误
-     */
-    ACCIDENT_NOT_EXISTS("0800","不存在该事故"),
-    DATA_HAS_SAVE("0801","该事故编号对于的资源数据已经保存"),
-    CASE_NUMBER_PARTICIPANT_DATA("0802","案例编号对应参与方数据错误"),
 
 
     /**
@@ -78,7 +64,6 @@ public enum ErrorCodeEnum {
      */
     NOT_HAVE_PERMISSION("0901","没有权限")
     ;
-
 
 
 

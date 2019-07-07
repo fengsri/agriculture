@@ -25,7 +25,7 @@
 
     <update id="deleteById" parameterType="Integer">
         update test
-        set deleted = 1
+        set deleted = 0
         where id = #{id}
     </update>
 
@@ -35,7 +35,7 @@
         FROM
         test
         WHERE
-        id=#{id} and deleted = 0
+        id=#{id} and deleted = 1
     </select>
 
     <select id="listAll" resultMap="BaseResultMap">
@@ -43,6 +43,7 @@
         <include refid="BaseColumnList"/>
         FROM
         test
+        where  deleted = 1
         order by id desc
         <if test="offset != null and rows != null">
             limit #{offset},#{rows}
@@ -50,15 +51,14 @@
         <if test="offset == null or rows == null">
             limit 0,10
         </if>
-        where  deleted = 0
     </select>
 
-    <select id="count" resultType="int">
+    <select id="count" resultType="long">
         SELECT
         count(*)
         FROM
         test
-        where  deleted = 0
+        where  deleted = 1
     </select>
 
     <update id="update" parameterType="com.xhu.agriculture.repository.TestDomain">
@@ -66,7 +66,7 @@
         set
         `name`= #{name},
         gmt_modified = current_timestamp
-        where id = #{id} and deleted = 0
+        where id = #{id} and deleted = 1
     </update>
 
 </mapper>

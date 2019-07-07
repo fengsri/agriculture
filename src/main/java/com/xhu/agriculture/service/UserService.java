@@ -16,4 +16,11 @@ public interface UserService extends BaseService<User>{
      * @return
      */
     User login(User user);
+
+    /**
+     * 通过手机号码进行查询
+     * @param userPhone
+     * @return
+     */
+    User getByPhone(Long userPhone);
 }

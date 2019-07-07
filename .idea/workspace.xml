@@ -7,14 +7,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75586628-de99-4c15-97af-64f938e8ec06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/agriproducts.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/comment.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/orderItem.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/orders.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/protype.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/userType.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/销售模块.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestDomainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/TestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServieImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/database.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/enums/ErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/enums/ErrorCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/repository/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/repository/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/service/impl/TestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/service/impl/TestServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/service/impl/UserServieImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/web/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/web/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/com/xhu/agriculture/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/database/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/database/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/agriculture/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/enums/ErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/enums/ErrorCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/repository/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/repository/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/BaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/BaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/impl/TestServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/impl/TestServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/service/impl/UserServieImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/web/controller/BaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/web/controller/BaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xhu/agriculture/web/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TestMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/TestMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xhu/agriculture/dao/TestDomainTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,79 +110,88 @@
     <session id="-1011627094">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="75" />
-          <entry key="properties" value="3" />
-          <entry key="sql" value="3" />
+          <entry key="java" value="139" />
+          <entry key="properties" value="6" />
+          <entry key="sql" value="16" />
           <entry key="test" value="1" />
-          <entry key="xml" value="21" />
+          <entry key="xml" value="31" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="1" />
-          <entry key="JAVA" value="75" />
-          <entry key="Properties" value="3" />
-          <entry key="SQL" value="3" />
-          <entry key="XML" value="21" />
+          <entry key="JAVA" value="139" />
+          <entry key="Properties" value="6" />
+          <entry key="SQL" value="16" />
+          <entry key="XML" value="31" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1344" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="3672" />
           <entry key="properties" value="38" />
-          <entry key="sql" value="12" />
+          <entry key="sql" value="197" />
           <entry key="txt" value="22" />
-          <entry key="xml" value="259" />
+          <entry key="xml" value="731" />
           <entry key="yml" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1344" />
-          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="JAVA" value="3672" />
+          <entry key="PLAIN_TEXT" value="29" />
           <entry key="Properties" value="38" />
-          <entry key="SQL" value="15" />
-          <entry key="XML" value="256" />
+          <entry key="SQL" value="241" />
+          <entry key="XML" value="687" />
           <entry key="YAML" value="38" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="37" column="32" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="145">
+              <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1380">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="393">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestDomainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#insert#0;class#TestDomainController#0" />
+                <element signature="method#getById#0;class#TestDomainController#0" />
+                <element signature="method#update#0;class#TestDomainController#0" />
+                <element signature="method#listAll#0;class#TestDomainController#0" />
               </folding>
             </state>
           </provider>
@@ -146,8 +200,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/ImageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="-39">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#defaultKaptcha#0;class#ImageController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,55 +223,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/database/database.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="209">
+              <caret line="39" column="21" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/Order.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="168">
+              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/TestDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="186">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/TestServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="835">
+              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3619#3620#0" expanded="true" />
+                <element signature="e#3643#3644#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/Order.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="299">
+              <caret line="199" column="58" lean-forward="true" selection-start-line="199" selection-start-column="58" selection-end-line="199" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2858#2859#0" expanded="true" />
+                <element signature="e#2888#2889#0" expanded="true" />
+                <element signature="method#listAll#0;class#UserServiceImpl#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,28 +316,35 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/code.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/code/KaptchaConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/TestDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/TestService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/BaseServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/BaseDomain.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database/database.sql" />
-        <option value="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/BaseService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/ImageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServieImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/Order.java" />
+        <option value="$PROJECT_DIR$/doc/sql/销售模块.sql" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServieImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/TestService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/database/database.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/TestServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestDomainController.java" />
       </list>
     </option>
   </component>
@@ -311,6 +390,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,7 +401,42 @@
             <path>
               <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
               <item name="agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xhu" type="462c0819:PsiDirectoryNode" />
+              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
@@ -362,17 +477,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xhu" type="462c0819:PsiDirectoryNode" />
               <item name="agriculture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xhu" type="462c0819:PsiDirectoryNode" />
-              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
@@ -397,43 +501,19 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="agriculture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="agriculture" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562326123377" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562436499333" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="E:/BaiduNetdiskDownload/RabbitMQ消息中间件技术精讲/课程资料/讲师原代码/coding-262/rabbitmq-springboot-producer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm02" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -442,18 +522,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.xhu.agriculture.service.impl" />
       <recent name="com.xhu.agriculture.service" />
       <recent name="com.xhu.agriculture.dao" />
+      <recent name="com.xhu.agriculture.service.impl" />
       <recent name="com.xhu.agriculture.web.code" />
       <recent name="com.xhu.agriculture.web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProject\agriculture\doc\sql" />
       <recent name="E:\IdeaProject\agriculture\src\main\resources\mapper" />
       <recent name="E:\IdeaProject\agriculture\src\main\resources" />
       <recent name="E:\IdeaProject\agriculture\src\main\java\com\xhu\agriculture\repository" />
       <recent name="E:\IdeaProject\agriculture\src\main\java\com\xhu\agriculture\web\handle" />
-      <recent name="E:\IdeaProject\agriculture\src\main\java\com\xhu\agriculture\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -469,33 +549,81 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration name="TestDomainTest.getById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="agriculture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xhu.agriculture.dao.*" />
+          <option name="PATTERN" value="com.xhu.agriculture.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xhu.agriculture.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.dao.TestDomainTest" />
-      <option name="METHOD_NAME" value="getById" />
+      <option name="PACKAGE_NAME" value="com.xhu.agriculture.service" />
+      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="count" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDomainTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="agriculture" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xhu.agriculture.dao.*" />
+          <option name="PATTERN" value="com.xhu.agriculture.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xhu.agriculture.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.dao.TestDomainTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.xhu.agriculture.service" />
+      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.getByPhone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agriculture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhu.agriculture.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xhu.agriculture.service" />
+      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getByPhone" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.listAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agriculture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhu.agriculture.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xhu.agriculture.service" />
+      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="listAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="agriculture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xhu.agriculture.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xhu.agriculture.service" />
+      <option name="MAIN_CLASS_NAME" value="com.xhu.agriculture.service.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -649,13 +777,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.tomcat" />
-      <item itemvalue="JUnit.TestDomainTest.getById" />
-      <item itemvalue="JUnit.TestDomainTest.insert" />
+      <item itemvalue="JUnit.UserServiceImplTest.delete" />
+      <item itemvalue="JUnit.UserServiceImplTest.count" />
+      <item itemvalue="JUnit.UserServiceImplTest.listAll" />
+      <item itemvalue="JUnit.UserServiceImplTest.login" />
+      <item itemvalue="JUnit.UserServiceImplTest.getByPhone" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDomainTest.getById" />
-        <item itemvalue="JUnit.TestDomainTest.insert" />
+        <item itemvalue="JUnit.UserServiceImplTest.login" />
+        <item itemvalue="JUnit.UserServiceImplTest.getByPhone" />
+        <item itemvalue="JUnit.UserServiceImplTest.listAll" />
+        <item itemvalue="JUnit.UserServiceImplTest.count" />
+        <item itemvalue="JUnit.UserServiceImplTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -669,70 +803,84 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562203977370</updated>
-      <workItem from="1562203980928" duration="21282000" />
+      <workItem from="1562203980928" duration="27543000" />
+      <workItem from="1562400882658" duration="18204000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDomainTest_getById - 2019.07.04 at 12h 51m 26s.xml">
-      <configuration name="TestDomainTest.getById" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_update - 2019.07.07 at 01h 42m 20s.xml">
+      <configuration name="UserServiceImplTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDomainTest_getById - 2019.07.04 at 12h 53m 42s.xml">
-      <configuration name="TestDomainTest.getById" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_count - 2019.07.07 at 01h 42m 57s.xml">
+      <configuration name="UserServiceImplTest.count" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDomainTest_getById - 2019.07.04 at 12h 54m 38s.xml">
-      <configuration name="TestDomainTest.getById" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_listAll - 2019.07.07 at 01h 42m 57s.xml">
+      <configuration name="UserServiceImplTest.listAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDomainTest_getById - 2019.07.04 at 12h 58m 58s.xml">
-      <configuration name="TestDomainTest.getById" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_delete - 2019.07.07 at 01h 42m 57s.xml">
+      <configuration name="UserServiceImplTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDomainTest_insert - 2019.07.04 at 13h 05m 29s.xml">
-      <configuration name="TestDomainTest.insert" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_login - 2019.07.07 at 01h 43m 11s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDomainTest_getById - 2019.07.04 at 13h 05m 30s.xml">
-      <configuration name="TestDomainTest.getById" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getByPhone - 2019.07.07 at 01h 43m 22s.xml">
+      <configuration name="UserServiceImplTest.getByPhone" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getByPhone - 2019.07.07 at 01h 44m 45s.xml">
+      <configuration name="UserServiceImplTest.getByPhone" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getByPhone - 2019.07.07 at 01h 45m 27s.xml">
+      <configuration name="UserServiceImplTest.getByPhone" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getByPhone - 2019.07.07 at 01h 52m 54s.xml">
+      <configuration name="UserServiceImplTest.getByPhone" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_login - 2019.07.07 at 01h 53m 13s.xml">
+      <configuration name="UserServiceImplTest.login" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21282000" />
+    <option name="totallyTimeSpent" value="45747000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3237519" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32840723" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.19211823" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6584565" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7602627" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7832512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7865353" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" weight="0.24962178" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32840723" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.69786537" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.24962178" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -741,18 +889,376 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="276">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/constant/SessionConstant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/code/KaptchaConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/util/EncryptionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestController.java" />
+    <entry file="das://474422de-daac-481f-886e-9a55afa12f2d/schema/agriculture/table/test">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/code.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/comment.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" selection-start-line="23" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/orders.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/protype.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/agriproducts.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/orderItem.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/销售模块.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="2" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/sql/userType.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/comment/PageDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3232">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/BaseDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/comment/ResultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/handle/ExceptionHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="47" lean-forward="true" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/comment/ResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="method#error#0;class#ResultUtil#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/TestDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/TestDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -766,117 +1272,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/handle/ExceptionHandle.java">
+    <entry file="jar://E:/jdk/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="-390">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6390#6391#0" expanded="true" />
+            <element signature="e#6438#6439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database/database.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/util/TelephoneUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/code.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/code/KaptchaConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        <state relative-caret-position="186">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/TestDomain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="352">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/util/EncryptionUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="375">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="120" column="13" lean-forward="true" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/TestDomainDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="25" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/BaseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/TestDomainServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="59" column="15" lean-forward="true" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -885,182 +1385,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/comment/ResultUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <element signature="method#success#0;class#ResultUtil#0" />
-            <element signature="method#error#0;class#ResultUtil#0" />
-            <element signature="method#error#1;class#ResultUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/comment/PageDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="186">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/dao/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="62" lean-forward="true" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="43" column="26" selection-start-line="27" selection-start-column="8" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="835">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#deleteById#0;class#TestServiceImpl#0" />
-            <element signature="method#update#0;class#TestServiceImpl#0" />
-            <element signature="method#insert#0;class#TestServiceImpl#0" />
+            <element signature="e#3619#3620#0" expanded="true" />
+            <element signature="e#3643#3644#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServieImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
+          <caret line="199" column="58" lean-forward="true" selection-start-line="199" selection-start-column="58" selection-end-line="199" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+            <element signature="method#listAll#0;class#UserServiceImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/xhu/agriculture/service/UserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="145">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="36" selection-end-line="95" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="das://474422de-daac-481f-886e-9a55afa12f2d/schema/agriculture/table/test">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/comment/ResultVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/BaseDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="393">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/enums/ErrorCodeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/TestDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database/database.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/dao/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TestMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="37" column="32" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="32" />
+        <state relative-caret-position="209">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="261">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1069,32 +1461,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="-39">
           <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#defaultKaptcha#0;class#ImageController#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/web/controller/TestDomainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1380">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xhu/agriculture/repository/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="261">
+          <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#insert#0;class#TestDomainController#0" />
+            <element signature="method#getById#0;class#TestDomainController#0" />
+            <element signature="method#update#0;class#TestDomainController#0" />
+            <element signature="method#listAll#0;class#TestDomainController#0" />
+          </folding>
         </state>
       </provider>
     </entry>

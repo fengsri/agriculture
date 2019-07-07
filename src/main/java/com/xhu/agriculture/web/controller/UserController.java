@@ -5,6 +5,7 @@ import com.xhu.agriculture.repository.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
@@ -17,7 +18,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping(value = "user")
 public class UserController extends BaseController {
 
-    @RequestMapping(value = "login")
+
+    @RequestMapping(value = "register",method = RequestMethod.POST)
+    @ResponseBody
+    public ResultVo register(User user){
+
+        return null;
+    }
+
+
+    @RequestMapping(value = "login",method = RequestMethod.GET)
     @ResponseBody
     public ResultVo login(User user){
 
